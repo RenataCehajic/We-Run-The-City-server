@@ -17,6 +17,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: false,
+          imageUrl:
+            "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
         },
         {
           email: "nyckele@gmail.com",
@@ -28,6 +30,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: false,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTK-ngpWCjKOd5TDmP8JmRSAD40hLharEf9PbSuT_ZArZzRBedZgWWTV1FXFvw0UO4_M&usqp=CAU",
         },
         {
           email: "david@gmail.com",
@@ -39,6 +43,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: true,
+          imageUrl:
+            "https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/10.png",
         },
         {
           email: "linda@gmail.com",
@@ -50,6 +56,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: false,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXE-cE41u6GJx-HLWLHKE6Da9-scLz9GprvC5mpWyGQ3TMPjtW6mAjoPb4xdF7KTOmRjg&usqp=CAU",
         },
         {
           email: "john@gmail.com",
@@ -61,6 +69,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: false,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjn8Q3yngDNIqNX6Yjdlz8oyuNnGzSWp1QftWI-1pkAhP5T7CZTOfK1Yrt-VYCf1xwSEM&usqp=CAU",
         },
         {
           email: "vesna@gmail.com",
@@ -72,6 +82,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: true,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXDoZz3j3M5_nSjbofrKtObgT-FQ1juM2v4Q1Zo5KaPs0ZpW6AmZAFtZdF8hqNr9yu0_s&usqp=CAU",
         },
         {
           email: "emma@gmail.com",
@@ -83,6 +95,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: false,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBEKd9qw9jDCvB0ilymxrPlZYoYUB4K7WDGW4RA5wN93ML1Q8AB4NuMR3AKMqe3PgqgP4&usqp=CAU",
         },
         {
           email: "akke@gmail.com",
@@ -94,6 +108,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: false,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3wQAMLLa3gVGPGke1csUhk0XBL5RQqZyM59PnvHbKOxCSx6Ih7-lqQGYUVne_G1B3to&usqp=CAU",
         },
         {
           email: "guido@gmail.com",
@@ -105,6 +121,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: false,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FFEG8-qN43QTGV-FfYcYZCREDy_MeOYzREiuM9EswneMyLbFVPYjCO9R2shuZWUKYQ8&usqp=CAU",
         },
         {
           email: "kees@gmail.com",
@@ -116,6 +134,8 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
           isOwner: true,
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXDoZz3j3M5_nSjbofrKtObgT-FQ1juM2v4Q1Zo5KaPs0ZpW6AmZAFtZdF8hqNr9yu0_s&usqp=CAU",
         },
       ],
       {}
