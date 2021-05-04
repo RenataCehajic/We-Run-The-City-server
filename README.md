@@ -1,4 +1,4 @@
-# BACKEND REPO FOR 🏃‍♂️🏃‍♂️🏃‍♂️ WE RUN THE CITY 🏃‍♂️🏃‍♂️🏃‍♂️
+# BACKEND REPO FOR ‍WE RUN THE CITY 🏃‍♂️🏃‍♂️🏃‍♂️
 
 ## Technologies used:
 
