@@ -21,7 +21,7 @@ router.post("/login", async (req, res, next) => {
 
     if (!user || !bcrypt.compareSync(password, user.password)) {
       return res.status(400).send({
-        message: "User with that email not found or password incorrect"
+        message: "User with that email not found or password incorrect",
       });
     }
 
@@ -35,16 +35,19 @@ router.post("/login", async (req, res, next) => {
 });
 
 router.post("/signup", async (req, res) => {
-  const { email, password, name } = req.body;
-  if (!email || !password || !name) {
-    return res.status(400).send("Please provide an email, password and a name");
+  const { email, password, firstName, imageUrl } = req.body;
+  if (!email || !password || !firstName) {
+    return res
+      .status(400)
+      .send("Please provide an email, password and a first name");
   }
 
   try {
     const newUser = await User.create({
       email,
       password: bcrypt.hashSync(password, SALT_ROUNDS),
-      name
+      firstName,
+      imageUrl,
     });
 
     delete newUser.dataValues["password"]; // don't send back the password hash
@@ -53,7 +56,7 @@ router.post("/signup", async (req, res) => {
 
     res.status(201).json({ token, ...newUser.dataValues });
   } catch (error) {
-    if (error.name === "SequelizeUniqueConstraintError") {
+    if (error.firstName === "SequelizeUniqueConstraintError") {
       return res
         .status(400)
         .send({ message: "There is an existing account with this email" });
