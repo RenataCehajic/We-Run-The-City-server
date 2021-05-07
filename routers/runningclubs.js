@@ -146,4 +146,24 @@ router.post("/:id/review", authMiddleware, async (req, res) => {
   }
 });
 
+router.delete("/:userId/reviews/:reviewId", async (req, res, next) => {
+  try {
+    const reviewId = parseInt(req.params.reviewId);
+    const toDelete = await Review.findByPk(reviewId);
+    if (!toDelete) {
+      res.status(404).send("Review not found");
+      if (user.id === userId) {
+        return res.status(200).send({
+          message: "You can delete this review!",
+        });
+      }
+    } else {
+      const deleted = await toDelete.destroy();
+      res.json(deleted);
+    }
+  } catch (e) {
+    next(e);
+  }
+});
+
 module.exports = router;
