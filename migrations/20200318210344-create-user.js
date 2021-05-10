@@ -23,11 +23,9 @@ module.exports = {
       },
       lastName: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       address: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       phoneNum: {
         type: Sequelize.STRING,
