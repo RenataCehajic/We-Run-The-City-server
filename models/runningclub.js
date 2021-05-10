@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
   class runningclub extends Model {
     static associate(models) {
       runningclub.belongsTo(models.user);
-      runningclub.hasMany(models.location);
+      runningclub.hasOne(models.location);
     }
   }
   runningclub.init(
