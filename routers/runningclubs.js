@@ -99,7 +99,7 @@ router.post("/addrunningclub", authMiddleware, async (req, res) => {
       address,
       longitude,
       latitude,
-      runningclubId: addRunningclub.id,
+      runningclubId: parseInt(addRunningclub.id),
     });
 
     res.status(200).send({ addRunningclub, location });
