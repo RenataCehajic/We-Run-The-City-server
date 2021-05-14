@@ -1,4 +1,4 @@
-# BACKEND REPO FOR ‍WE RUN THE CITY 🏃‍♂️🏃‍♂️🏃‍♂️
+This is the backend for We Run The City app.
 
 ## Technologies used:
 
